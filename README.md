@@ -23,6 +23,9 @@ The DeepWeight system follows the following workflow:
 4. The model predicts the type of food in the image.
 5. The relevant information such as food name, price, and weight is printed on a label using the printer.
 6. The customer can then take the labeled food item and proceed to checkout.
+<p align="center">
+<img src="images/dw_flowchart.png" width="500">
+</p>
 
 ## Model Training
 Various models were fine-tuned based on a 150 image fruit dataset containg 3 fruit classes: Apples, Bananas and Grapes. `fast.ai` was the library used to train the model, and the training and testing process is shown in the `model_training.ipynb` file.
