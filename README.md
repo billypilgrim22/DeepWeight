@@ -7,7 +7,7 @@ DeepWeight is an automated food billing system that uses deep learning to detect
 The system consists of the following components:
 * **Raspberry Pi 3**: The main computing unit that runs the DeepWeight software and manages all the components.
 * **USB camera**: Captures the image of the food item for classification.
-* **Load cell module**: Collects the weight data of the food item.
+* **Load cell module, HX711**: Collects the weight data of the food item.
 * **Printer**: Prints the label with relevant information.
 * **Convolutional Neural Network (CNN) model**: Trained using the fast.ai library.
 <img src="images/system_design.jpg" width="500">
@@ -20,6 +20,9 @@ The DeepWeight system follows the following workflow:
 4. The model predicts the type of food in the image with high accuracy.
 5. The relevant information such as food name, price, and weight is printed on a label using the printer.
 6. The customer can then take the labeled food item and proceed to checkout.
+
+## Model Training
+Various models were fine-tuned based on a 150 image fruit dataset containg 3 fruit classes: Apples, Bananas and Grapes. `fast.ai` was the library used to train the model, and the training and testing process is shown in the `model_training.ipynb` file.
 
 ## Installation and Usage
 The DeepWeight system is designed to be easy to install and use. To use the system, follow these steps:
