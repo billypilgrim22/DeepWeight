@@ -1,0 +1,6 @@
+fastbook==0.0.22
+hx711==1.1.2.3
+opencv_python==4.5.5.64
+pandas==1.3.4
+reportlab==3.6.11
+reportlab_qrcode==0.1.4
