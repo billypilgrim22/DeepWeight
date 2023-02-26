@@ -20,7 +20,7 @@ The DeepWeight system follows the following workflow:
 1. The customer places the food item on the load cell, triggering the weight sensing system.
 2. The USB camera captures an image of the food item.
 3. The captured image is fed into the CNN model for food classification.
-4. The model predicts the type of food in the image with high accuracy.
+4. The model predicts the type of food in the image.
 5. The relevant information such as food name, price, and weight is printed on a label using the printer.
 6. The customer can then take the labeled food item and proceed to checkout.
 
