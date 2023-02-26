@@ -57,5 +57,6 @@ The DeepWeight system is designed to be easy to install and use. To use the syst
 | VCC   | 5V           |
 
 * Calibrate the load cell using [galdalf15's code to save state.](https://github.com/gandalf15/HX711/blob/master/python_examples/example_save_state.py) as a .swp file.
+* Run `model_training.ipynb` to produce the CNN model. ([Colab link](https://colab.research.google.com/drive/1gt2llrekVYC5WZPzw4BPtY1TVr4PBYXf?usp=sharing))
 * Connect the USB camera and printer to the Raspberry Pi.
 * Finally, run `main.py`.
