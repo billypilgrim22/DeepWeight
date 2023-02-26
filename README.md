@@ -1,7 +1,8 @@
 # _DeepWeight_: A Semi-Autonomous Food Weight Billing System using Deep Learning
 DeepWeight is an automated food billing system that uses deep learning to detect the type of food, collect weight data using a load cell, capture an image of the food using a camera, predict the type of food in the image using a convolutional neural network (CNN) model, and print a label with relevant information using a printer. The system is designed to reduce long lines and inefficiencies in manual billing processes in grocery stores, saving time for customers and improving efficiency for store owners.
-
+<p align="center">
 <img src="images/final_setup.jpg" width="500">
+</p>
 
 ## System Architecture
 The system consists of the following components:
@@ -10,7 +11,9 @@ The system consists of the following components:
 * **Load cell module, HX711**: Collects the weight data of the food item.
 * **Printer**: Prints the label with relevant information.
 * **Convolutional Neural Network (CNN) model**: Trained using the fast.ai library.
+<p align="center">
 <img src="images/system_design.jpg" width="500">
+</p>
 
 ## System Workflow
 The DeepWeight system follows the following workflow:
@@ -29,7 +32,9 @@ The DeepWeight system is designed to be easy to install and use. To use the syst
 * Install fastbook using `pip install fastbook --no-deps`, run `main.py` and install the necessary individual libraries, as PyTorch does not work on 32-bit Raspberry Pi 3 system.
 * Install the other libraries mentioned in the `requirements.txt` file.
 * Connect the Raspberry Pi 3, HX711 and Load Cell as shown below:
+<p align="center">
 <img src="images/interfacing.jpg" width="350">
+</p>
 
 ### Connections
 #### _Load Cell to HX711_
