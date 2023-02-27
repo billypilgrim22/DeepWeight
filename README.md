@@ -15,7 +15,7 @@ The system consists of the following components:
 <img src="images/system_design.jpg" width="500">
 </p>
 
-## System Workflow
+## System Workflow ([Video](https://drive.google.com/file/d/1H_WokwGaMFjuiF9HEckLnQKs4Xpnee_z/view))
 The DeepWeight system follows the following workflow:
 1. The customer places the food item on the load cell, triggering the weight sensing system.
 2. The USB camera captures an image of the food item.
