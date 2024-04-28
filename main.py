@@ -29,7 +29,7 @@ while True:
     while True:
         if(counter > 3):
             print(hx.get_weight_mean(5), 'g')
-            #If there's an abrupt change in wight, the item has been placed on the load cell
+            #If there's an abrupt change in weight, the item has been placed on the load cell
             if(abs(prev - hx.get_weight_mean(5))>50):
                 fruit_weight = hx.get_weight_mean(5)/1000 #store weight
                 print("Fruit is placed on load cell, weighing ", fruit_weight," kg!!!")
